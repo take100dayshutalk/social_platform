@@ -1,0 +1,84 @@
+#bu_close{
+    border: none;
+    border-image: url(":/close.png");
+}
+#bu_close:hover{
+    border: none;
+    border-image: url(":/close_active.png");
+}
+QLineEdit{
+    border: none;
+    font-size: 20px;
+    border-bottom-style:double;
+    border-bottom-width: 1px;
+    border-bottom-color: white; 
+    background-color: rgb(163,172,218);
+}
+QCheckBox:unchecked{
+    border: none;
+    color:rgb(125,125,125);
+    font-weight: 400;
+}
+QCheckBox:checked{
+    border:none;
+    color:black;
+    font-weight: 700;
+}
+
+QPushButton#Login{
+    width:300px;
+    height: 40px;
+    font-size: 32px;
+    border:none;
+    border-bottom-left-radius: 30px;
+    background-color: rgb(183,192,238);
+}
+QPushButton#Login:hover{
+    border: none;
+    background-color: rgb(0,0,128);
+}
+QPushButton#Towidget{
+    outline: none;
+    background-color: rgb(163,172,218);
+    border: none;
+    font-style:italic;
+    text-decoration: underline;
+}
+QPushButton#Towidget:hover{
+    color:green;
+}
+QPushButton#Register{
+    outline: none;
+    width: 186px;
+    height: 35px;
+    font-size: 20px;
+    color:white;
+    background-color: black;
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-style: italic;
+}
+QPushButton#Backlogin{
+    outline: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 114px;
+    height: 35px;
+    font-size: 20px;
+    color:black;
+    background-color: white;
+    font-style: italic;
+}
+QToolButton{
+    border:none;
+    background-color: transparent;
+}
+QToolButton:hover{
+    background-color: orange;
+    padding:0;
+}
+QToolButton:pressed{
+    background-color: darkorange;
+}
+
